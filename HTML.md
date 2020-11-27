@@ -1,3 +1,20 @@
+<!DOCTYPE html><!-- 表声明的意思，意思是下面的文档标签将以html5规范进行解析 -->
+<html>
+    <!-- 头部，主要用来完成一个网页的相关设置 -->
+    <head>
+        <meta charset="utf-8" /> <!-- 汉字编码 -->
+        <meta name="keywords" content="设置一个网站的搜索关键字" />
+        <meta name="description" content="设置网站的描述内容" />
+        <title>网页标题</title>
+        <link rel="shortcut icon" href="链接favicon.ico" /> <!--网站icon-->
+        <style>内部样式</style>
+    </head>
+    <!-- 主体部分 -->
+    <tbody></tbody>
+    <!-- 脚本代码部分 -->
+    <script></script>
+</html>
+
 ## HTML
 
 #### 1.概述
@@ -12,17 +29,57 @@
 
 #### 2.HTML结构
 
-![html结构图1](./images/html.png)
+<!-- 表声明的意思，意思是下面的文档标签将以html5规范进行解析 -->
+<!-- <!DOCTYPE html> 因为在markdown文档中必须闭合才可以正常展示，故这句代码屏蔽 -->
+<html>
+    <!-- 头部，主要用来完成一个网页的相关设置 -->
 
-![1606373286905](C:\Users\15235\AppData\Roaming\Typora\typora-user-images\1606373286905.png)
+    <head>
+        <meta charset="utf-8" /> <!-- 汉字编码 -->
+        <meta name="keywords" content="设置一个网站的搜索关键字" />
+        <meta name="description" content="设置网站的描述内容" />
+        <title>网页标题</title>
+        <link rel="shortcut icon" href="链接favicon.ico" /> <!--网站icon-->
+        <style>内部样式</style>
+    </head>
+​    <!-- 主体部分 -->
+​    <tbody></tbody>
+​    <!-- 脚本代码部分 -->
+    <script></script>
+</html>
 
 #### 3.meta标签
 
-<img src="C:\Users\15235\Desktop\learnspace\web-files\images\1606373502636.png" alt="1606373502636" style="zoom: 200%;" />
+<meta charset="utf-8" /> <!-- 汉字编码 -->
+<meta name="keywords" content="设置一个网站的搜索关键字" />
+<meta name="description" content="设置网站的描述内容" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--整屏显示禁止缩放-->
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" name="viewport">
+<!--添加到主屏后的标题（IOS）-->
+<meta name="apple-mobile-web-app-title" content="WeBounty">
+<!--启用全屏模式（IOS）-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<!--禁止手机号码识别（IOS）-->
+<meta name="format-detection" content="telephone=no" />
+<!--禁止电子邮箱识别（Android）-->
+<meta name="format-detection" content="email=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!--百度禁止转码-->
+<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 #### 4.实体转义
 
-![1606375990517](C:\Users\15235\Desktop\learnspace\web-files\images\1606375990517.png)
+| 实体字符 | 编译后字符       |
+| -------- | ---------------- |
+| &lt;     | 小于号（<）      |
+| &gt;     | 大于号（>）      |
+| &amp;    | 与号（&）        |
+| &nbsp;   | 空格             |
+| &copy;   | 版权（&copy;）   |
+| &times;  | 乘号（&times;）  |
+| &divide; | 除号（&divide;） |
 
 #### 5.块元素
 
