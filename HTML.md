@@ -29,12 +29,12 @@
 
 #### 2.HTML结构
 
+```
 <!-- 表声明的意思，意思是下面的文档标签将以html5规范进行解析 -->
 <!-- <!DOCTYPE html> 因为在markdown文档中必须闭合才可以正常展示，故这句代码屏蔽 -->
 <html>
-    <!-- 头部，主要用来完成一个网页的相关设置 -->
-
-    <head>
+    <!-- 头部，主要用来完成一个网页的相关设置 -->    
+	<head>
         <meta charset="utf-8" /> <!-- 汉字编码 -->
         <meta name="keywords" content="设置一个网站的搜索关键字" />
         <meta name="description" content="设置网站的描述内容" />
@@ -42,11 +42,12 @@
         <link rel="shortcut icon" href="链接favicon.ico" /> <!--网站icon-->
         <style>内部样式</style>
     </head>
-​    <!-- 主体部分 -->
-​    <tbody></tbody>
-​    <!-- 脚本代码部分 -->
+ <!-- 主体部分 -->
+    <tbody></tbody>
+    <!-- 脚本代码部分 -->
     <script></script>
 </html>
+```
 
 #### 3.meta标签
 
