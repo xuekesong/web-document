@@ -12,7 +12,7 @@
 
 #### 2.HTML结构
 
-![1606373218170](./images/1606373218170.png)
+![html结构图1](./images/html.png)
 
 ![1606373286905](C:\Users\15235\AppData\Roaming\Typora\typora-user-images\1606373286905.png)
 
