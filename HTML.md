@@ -12,17 +12,17 @@
 
 #### 2.HTML结构
 
-![1606373218170](C:\Users\15235\Desktop\learnspace\web-files\images\1606373218170.png)
+![1606373218170](./images/1606373218170.png)
 
 ![1606373286905](C:\Users\15235\AppData\Roaming\Typora\typora-user-images\1606373286905.png)
 
 #### 3.meta标签
 
-<img src="C:\Users\15235\AppData\Roaming\Typora\typora-user-images\1606373502636.png" alt="1606373502636" style="zoom: 200%;" />
+<img src="C:\Users\15235\Desktop\learnspace\web-files\images\1606373502636.png" alt="1606373502636" style="zoom: 200%;" />
 
 #### 4.实体转义
 
-![1606375990517](C:\Users\15235\AppData\Roaming\Typora\typora-user-images\1606375990517.png)
+![1606375990517](C:\Users\15235\Desktop\learnspace\web-files\images\1606375990517.png)
 
 #### 5.块元素
 
