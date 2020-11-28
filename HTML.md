@@ -31,7 +31,7 @@
 
 ```
 <!-- 表声明的意思，意思是下面的文档标签将以html5规范进行解析 -->
-<!-- <!DOCTYPE html> 因为在markdown文档中必须闭合才可以正常展示，故这句代码屏蔽 -->
+<!DOCTYPE html>
 <html>
     <!-- 头部，主要用来完成一个网页的相关设置 -->    
 	<head>
@@ -51,6 +51,7 @@
 
 #### 3.meta标签
 
+```
 <meta charset="utf-8" /> <!-- 汉字编码 -->
 <meta name="keywords" content="设置一个网站的搜索关键字" />
 <meta name="description" content="设置网站的描述内容" />
@@ -69,18 +70,19 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <!--百度禁止转码-->
 <meta http-equiv="Cache-Control" content="no-siteapp" />
+```
 
 #### 4.实体转义
 
-| 实体字符 | 编译后字符       |
-| -------- | ---------------- |
-| &lt;     | 小于号（<）      |
-| &gt;     | 大于号（>）      |
-| &amp;    | 与号（&）        |
-| &nbsp;   | 空格             |
-| &copy;   | 版权（&copy;）   |
-| &times;  | 乘号（&times;）  |
-| &divide; | 除号（&divide;） |
+| 实体字符   | 编译后字符       |
+| ---------- | ---------------- |
+| `&lt;`     | 小于号（<）      |
+| `&gt;`     | 大于号（>）      |
+| `&amp;`    | 与号（&）        |
+| `&nbsp;`   | 空格             |
+| `&copy;`   | 版权（&copy;）   |
+| `&times;`  | 乘号（&times;）  |
+| `&divide;` | 除号（&divide;） |
 
 #### 5.块元素
 
